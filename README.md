@@ -6,3 +6,27 @@ Transcribe is built upon the open-source generosity of George Mason University's
 ##Overview
 [Making History - Transcribe] (http://www.virginiamemory.com/transcribe/) is a tool for engaging users in transcribing handwritten documents, making them more searchable and enhancing them for research. Transcribe is built on the [Omeka] (http://omeka.org/) content management system and uses the [Scripto] (http://scripto.org/) plugin to facilitate transcription. [Scripto] (http://scripto.org/) uses [MediaWiki] (http://www.mediawiki.org/wiki/MediaWiki), which allows users to continually improve upon work that has already been done. UI-Libraries made significant additions to the Scripto plugin, created a new Omeka theme, and customized other Omeka plugins to style and scale for a library production environment.
 
+##Requirements
+Transcribe requires the following:
+
+- [Omeka version 1.5](http://omeka.org/codex/Version_History)
+- [Omeka Dublin Core Extended plugin version 1.1] (http://omeka.org/add-ons/plugins/dublin-core-extended/)
+  - Scripto requires a [MediaWiki] (http://www.mediawiki.org/wiki/MediaWiki) installation.
+- [Scribe](https://github.com/ui-libraries/Scribe), a custom Omeka theme designed by UI-Libraries for use with ui-libraries/plugin-Scripto. The Library of Virginia's altered version is available at [https://github.com/LibraryofVA/omeka-themes/tree/master/scribe] (https://github.com/LibraryofVA/omeka-themes/tree/master/scribe).
+
+##Features
+[UI-Libraries] (http://www.lib.uiowa.edu/) introduced the following features to plugin-Scripto:
+
+- Track completion progress of documents based on page statuses.
+- Sort documents within their collection by most completed, floating least completed to the top.
+- Initialize document page text entry box with pre-existing text, if available (helpful if using Scripto to correct OCR for typescript pages).
+- On every page action, automatically import transcriptions from MediaWiki as file metadata.
+
+
+The [Scribe](https://github.com/ui-libraries/Scribe) theme directs its focus on guiding users to easy transcription tasks rather than collection management features, offering a clean, thumbnail-oriented transcription view for any number of Omeka image collections.
+
+
+## Installation
+Follow the documentation at each source code repository to install 
+
+For best results, install the ui-libraries/plugin-Scripto plugin and create a collection before installing the Scribe theme.
