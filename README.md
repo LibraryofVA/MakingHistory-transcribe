@@ -11,12 +11,15 @@ Transcribe requires the following:
 
 - [Omeka version 1.5](http://omeka.org/codex/Version_History)
 - [Omeka Dublin Core Extended plugin version 1.1] (http://omeka.org/add-ons/plugins/dublin-core-extended/)
+- ui-libraries/plugin-CsvImport, a fork of Omeka's CsvImport that allows bulk upload of item and file-level metadata
+- We began with [ui-libraries/plugin-Scripto](https://github.com/ui-libraries/plugin-Scripto), a fork of CHNM's Scripto tool for crowd sourced transcription of documents. The Library of Virginia altered UI-Libraries plugin is available at [https://github.com/LibraryofVA/plugin-Scripto] (https://github.com/LibraryofVA/plugin-Scripto).
   - Scripto requires a [MediaWiki] (http://www.mediawiki.org/wiki/MediaWiki) installation.
 - [Scribe](https://github.com/ui-libraries/Scribe), a custom Omeka theme designed by UI-Libraries for use with ui-libraries/plugin-Scripto. The Library of Virginia's altered version is available at [https://github.com/LibraryofVA/omeka-themes/tree/master/scribe] (https://github.com/LibraryofVA/omeka-themes/tree/master/scribe).
 
 ##Features
 [UI-Libraries] (http://www.lib.uiowa.edu/) introduced the following features to plugin-Scripto:
 
+- Track completion status of document pages (i.e., 'Not Started', 'Needs Review', 'Completed')
 - Track completion progress of documents based on page statuses.
 - Sort documents within their collection by most completed, floating least completed to the top.
 - Initialize document page text entry box with pre-existing text, if available (helpful if using Scripto to correct OCR for typescript pages).
@@ -25,6 +28,7 @@ Transcribe requires the following:
 
 The [Scribe](https://github.com/ui-libraries/Scribe) theme directs its focus on guiding users to easy transcription tasks rather than collection management features, offering a clean, thumbnail-oriented transcription view for any number of Omeka image collections.
 
+By default, any member of the public is allowed to edit and save transcription data, but only users with an account can track their progress. Approved account holders can also be granted administrator (or deputy) status, allowing them to finalize documents as "complete".
 
 ## Installation
 Follow the documentation at each source code repository to install 
