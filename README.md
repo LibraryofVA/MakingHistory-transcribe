@@ -9,12 +9,12 @@ Transcribe is built upon the open-source generosity of George Mason University's
 ##Requirements
 Transcribe requires the following:
 
-- [Omeka version 1.5](http://omeka.org/codex/Version_History)
-- [Omeka Dublin Core Extended plugin version 1.1] (http://omeka.org/add-ons/plugins/dublin-core-extended/)
-- ui-libraries/plugin-CsvImport, a fork of Omeka's CsvImport that allows bulk upload of item and file-level metadata
-- We began with [ui-libraries/plugin-Scripto](https://github.com/ui-libraries/plugin-Scripto), a fork of CHNM's Scripto tool for crowd sourced transcription of documents. The Library of Virginia altered UI-Libraries plugin is available at [https://github.com/LibraryofVA/plugin-Scripto] (https://github.com/LibraryofVA/plugin-Scripto).
-  - Scripto requires a [MediaWiki] (http://www.mediawiki.org/wiki/MediaWiki) installation.
-- [Scribe](https://github.com/ui-libraries/Scribe), a custom Omeka theme designed by UI-Libraries for use with ui-libraries/plugin-Scripto. The Library of Virginia's altered version is available at [https://github.com/LibraryofVA/omeka-themes/tree/master/scribe] (https://github.com/LibraryofVA/omeka-themes/tree/master/scribe).
++ [Omeka version 1.5](http://omeka.org/codex/Version_History)
++ [Omeka Dublin Core Extended plugin version 1.1] (http://omeka.org/add-ons/plugins/dublin-core-extended/)
++ ui-libraries/plugin-CsvImport, a fork of Omeka's CsvImport that allows bulk upload of item and file-level metadata
++ We began with [ui-libraries/plugin-Scripto](https://github.com/ui-libraries/plugin-Scripto), a fork of CHNM's Scripto tool for crowd sourced transcription of documents. The Library of Virginia altered UI-Libraries plugin is available at [https://github.com/LibraryofVA/plugin-Scripto] (https://github.com/LibraryofVA/plugin-Scripto).
+  + Scripto requires a [MediaWiki] (http://www.mediawiki.org/wiki/MediaWiki) installation.
++ [Scribe](https://github.com/ui-libraries/Scribe), a custom Omeka theme designed by UI-Libraries for use with ui-libraries/plugin-Scripto. The Library of Virginia's altered version is available at [https://github.com/LibraryofVA/omeka-themes/tree/master/scribe] (https://github.com/LibraryofVA/omeka-themes/tree/master/scribe).
 
 ##Features
 [UI-Libraries] (http://www.lib.uiowa.edu/) introduced the following features to plugin-Scripto:
