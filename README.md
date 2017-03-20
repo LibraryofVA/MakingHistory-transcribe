@@ -20,7 +20,7 @@ Transcribe requires the following:
 
 Features
 --------
-[UI-Libraries] (http://www.lib.uiowa.edu/) introduced the following features to plugin-Scripto:
+[UI-Libraries](http://www.lib.uiowa.edu/) introduced the following features to plugin-Scripto:
 
 - Track completion status of document pages (i.e., 'Not Started', 'Needs Review', 'Completed')
 - Track completion progress of documents based on page statuses.
